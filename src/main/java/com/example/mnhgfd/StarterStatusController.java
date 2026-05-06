@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import org.springframework.beans.factory.annotation.Autowired;
-import javax.sql.DataSource;
+import jakarta.sql.DataSource;
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 
